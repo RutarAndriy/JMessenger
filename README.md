@@ -1,4 +1,4 @@
-# Messenger
+# JMessenger
 
 |                                   Іконка                                 |     Константа    |    Короткий опис   |
 | :----------------------------------------------------------------------: | :--------------: | :----------------- |
@@ -21,4 +21,4 @@
 | <img valign="middle" src="/src/main/resources/icons/bomb.png">           | `BOMB`           | Бомба              |
 | <img valign="middle" src="/src/main/resources/icons/own_icon.png">       | `OWN_ICON`       | Власна іконка      |
 
-http://www.fatcow.com/free-icons
+Іконки взято із сайту [www.fatcow.com](http://www.fatcow.com/free-icons)

@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="JMessenger Demo"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel_main" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel_main" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel_main">
+      <Properties>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.EmptyBorderInfo">
+            <EmptyBorder bottom="3" left="3" right="3" top="3"/>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignGridLayout">
+        <Property name="columns" type="int" value="0"/>
+        <Property name="horizontalGap" type="int" value="3"/>
+        <Property name="rows" type="int" value="6"/>
+        <Property name="verticalGap" type="int" value="3"/>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="jButton_01">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/information.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x406;&#x43d;&#x444;&#x43e;&#x440;&#x43c;&#x430;&#x446;&#x456;&#x44f;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_01"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_02">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/help.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x43e;&#x43f;&#x43e;&#x43c;&#x43e;&#x433;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_02"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_03">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/done.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x413;&#x43e;&#x442;&#x43e;&#x432;&#x43e;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_03"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_04">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/warning.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x43f;&#x435;&#x440;&#x435;&#x434;&#x436;&#x435;&#x43d;&#x43d;&#x44f;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_04"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_05">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/error.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41f;&#x43e;&#x43c;&#x438;&#x43b;&#x43a;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_05"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_06">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/processing.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41e;&#x431;&#x440;&#x43e;&#x431;&#x43a;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_06"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_07">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/hourglass.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x413;&#x43e;&#x434;&#x438;&#x43d;&#x43d;&#x438;&#x43a;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_07"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_08">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/magnifier.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41b;&#x443;&#x43f;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_08"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_09">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/bug.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Bug"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_09"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_10">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/chart.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x413;&#x440;&#x430;&#x444;&#x456;&#x43a;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_10"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_11">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/component.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43c;&#x43f;&#x43e;&#x43d;&#x435;&#x43d;&#x442;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_11"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_12">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/roadworks.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x414;&#x43e;&#x440;&#x43e;&#x436;&#x43d;&#x456; &#x440;&#x43e;&#x431;&#x43e;&#x442;&#x438;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_12"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_13">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/world.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41f;&#x43b;&#x430;&#x43d;&#x435;&#x442;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_13"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_14">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/system_monitor.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41c;&#x43e;&#x43d;&#x456;&#x442;&#x43e;&#x440;&#x438;&#x43d;&#x433;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_14"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_15">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/yin_yang.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x406;&#x43d;&#x44c;-&#x42f;&#x43d;&#x44c;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_15"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_16">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/flask.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43b;&#x431;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_16"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_17">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/bomb.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x411;&#x43e;&#x43c;&#x431;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_17"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton_18">
+          <Properties>
+            <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+              <Image iconType="3" name="/icons/own_icon.png"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x412;&#x43b;&#x430;&#x441;&#x43d;&#x430; &#x456;&#x43a;&#x43e;&#x43d;&#x43a;&#x430;"/>
+            <Property name="actionCommand" type="java.lang.String" value="button_18"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="onButtonClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
